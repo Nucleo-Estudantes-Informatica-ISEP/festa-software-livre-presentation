@@ -290,10 +290,42 @@ _transition: wiper
 
 ---
 
+<!--
+header: "_O que é o NEI_ _AntiRecurso - Origem_ _AntiRecurso - Desenvolvimento_ **AntiRecurso - Sucesso** _Takeaways_"
+_class: lead
+-->
+
+![w:720](assets/no-exams-per-day.png)
+
 ---
 
 <!--
-header: "_O que é o NEI_ _AntiRecurso - Origem_ _AntiRecurso - Desenvolvimento_ **AntiRecurso - Sucesso** _Takeaways_"
+_class: lead
+-->
+
+## ![w:720](assets/pr-list.png)
+
+---
+
+<!--
+_class: lead
+-->
+
+<style scoped>
+  h1 {
+    font-size: 2.5rem;
+  }
+</style>
+
+# 🔜
+
+<!--
+Falar sobre os próximos passos:
+
+- Melhorar o crawler (generalizar)
+- Novos tipos de perguntas
+- Novas funcionalidades
+- Não ir preso
 -->
 
 ---
