@@ -6,17 +6,18 @@ _class: lead
 theme: gaia
 transition: melt
 size: 16:9
-footer: "Núcleo de Estudantes de Informática - ISEP ![w:120px](assets/logo-white.png)"
+footer: "Núcleo de Estudantes de Informática - ISEP ![w:120px](assets/logo-white.png 'Logo NEI-ISEP')"
 style: |
   header {
     display: flex;
     align-items: center;
-
     gap: 1rem;
     padding: 1rem;
-
     font-size: 0.5rem;
   } 
+  h1 {
+    font-size: 1.5rem;
+  }
   h2 {
     font-size: 1.25em;
     color: #e63;
@@ -26,9 +27,18 @@ style: |
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 1rem 1.5rem;
+  }
+  p {
+    font-size: 0.8rem;
   }
 ---
+
+<style scoped>
+  h1 {
+    font-size: 2rem;
+  }
+</style>
 
 # Software Livre no Núcleo de Estudantes de Informática do ISEP
 
@@ -37,13 +47,14 @@ style: |
 ---
 
 <!--
-header: "**O que é o NEI** _AntiRecurso - Origem_ _AntiRecurso - Desenvolvimento_ _AntiRecurso - Sucesso_ _Takeaways_"
+header: "**O que é o NEI** _AntiRecurso - Origem_ _AntiRecurso - Desenvolvimento_ _AntiRecurso - Sucesso_ _Software Livre_"
+footer: "Núcleo de Estudantes de Informática - ISEP ![w:120px](assets/logo-black.png 'Logo NEI-ISEP')"
 transition: fade
 backgroundColor: #fff
 color: #000
 -->
 <style scoped>
-  img {
+  p > img {
     position: absolute;
     right: 4rem;
     bottom: 50%;
@@ -61,15 +72,32 @@ Desde 2014
 
 ---
 
+![w:620](assets/fallstack.JPG)
+
+![w:620](assets/fallstack-stand.JPG)
+
+---
+
+![w:620](assets/gamejam.JPG)
+
+---
+
 # Departamento de Informática
 
 <style scoped>
-  img {
+  section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+  }
+  h1 {
     position: absolute;
-    right: 50%;
-    bottom: 15%;
-    transform: translateX(50%);
-    width: 520px;
+    left: 2rem;
+    top: 2rem;
+  }
+  code {
+    width: 100%;
   }
 </style>
 
@@ -79,21 +107,21 @@ if (evento || plataforma || projeto) {
 }
 ```
 
-![github](assets/github-org.png)
+![w:520px](assets/github-org.png)
 
 ---
 
 <!--
-header: "_O que é o NEI_ **AntiRecurso - Origem** _AntiRecurso - Desenvolvimento_ _AntiRecurso - Sucesso_ _Takeaways_"
+header: "_O que é o NEI_ **AntiRecurso - Origem** _AntiRecurso - Desenvolvimento_ _AntiRecurso - Sucesso_ _Software Livre_"
 _class: lead
 -->
 
-![w:580](assets/multiple-choice-meme.png)
+![w:520px](assets/multiple-choice-meme.png)
 
 ---
 
 <style scoped>
-  img {
+  p > img {
     position: absolute;
     right: 4rem;
     bottom: 50%;
@@ -107,12 +135,12 @@ Criado em 2018
 
 Exclusivo Android
 
-![w:580](assets/old-antirecurso.png)
+![w:750](assets/old-antirecurso.png)
 
 ---
 
 <!--
-header: "_O que é o NEI_ _AntiRecurso - Origem_ **AntiRecurso - Desenvolvimento** _AntiRecurso - Sucesso_ _Takeaways_"
+header: "_O que é o NEI_ _AntiRecurso - Origem_ **AntiRecurso - Desenvolvimento** _AntiRecurso - Sucesso_ _Software Livre_"
 _class: lead
 -->
 
@@ -133,7 +161,7 @@ Falar sobre a ideia do rewrite
 # Desafios
 
 <style scoped>
-  img {
+  p > img {
     position: absolute;
     right: 4rem;
     bottom: 50%;
@@ -159,12 +187,15 @@ Informação disponível
     left: 2rem;
     top: 2rem;
   }
+  h2 {
+    font-size: 1.2rem;
+  }
   section {
     display: grid;
     grid-template-columns: 1fr 1fr 10fr;
 
     align-items: center;
-    gap: 1rem;
+    gap: 0.5rem;
   }
   section code {
     width: 100%;
@@ -172,9 +203,9 @@ Informação disponível
   }
 </style>
 
-![w:520px](assets/sample-exam.png)
+![w:480px](assets/sample-exam.png)
 
-➡
+## ➡
 
 ```json
 {
@@ -291,19 +322,21 @@ _transition: wiper
 ---
 
 <!--
-header: "_O que é o NEI_ _AntiRecurso - Origem_ _AntiRecurso - Desenvolvimento_ **AntiRecurso - Sucesso** _Takeaways_"
-_class: lead
+header: "_O que é o NEI_ _AntiRecurso - Origem_ _AntiRecurso - Desenvolvimento_ **AntiRecurso - Sucesso** _Software Livre_"
 -->
 
-![w:720](assets/no-exams-per-day.png)
+<style scoped>
+  section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+</style>
 
----
+## ![w:420](assets/no-exams-per-day.png)
 
-<!--
-_class: lead
--->
-
-## ![w:720](assets/pr-list.png)
+## ![w:620](assets/pr-list.png)
 
 ---
 
@@ -331,5 +364,79 @@ Falar sobre os próximos passos:
 ---
 
 <!--
-header: "_O que é o NEI_ _AntiRecurso - Origem_ _AntiRecurso - Desenvolvimento_ _AntiRecurso - Sucesso_ **Takeaways**"
+header: "_O que é o NEI_ _AntiRecurso - Origem_ _AntiRecurso - Desenvolvimento_ _AntiRecurso - Sucesso_ **Software Livre**"
+_class: lead
 -->
+
+![w:720](assets/github-repos.png)
+
+---
+
+<!--
+_class: lead
+-->
+
+<style scoped>
+  h1 {
+    font-size: 2.5rem;
+  }
+</style>
+
+# 📈
+
+---
+
+<!--
+_class: lead
+-->
+
+![w:720](assets/fork-dei.png)
+
+---
+
+<!--
+_class: lead
+-->
+
+<style scoped>
+  h1 {
+    font-size: 2.5rem;
+  }
+</style>
+
+# 📚
+
+<!--
+Recurso para os estudantes estudarem e terem uma base de um projeto real.
+-->
+
+---
+
+<!--
+_class: lead
+-->
+
+![w:720](assets/pr-list.png)
+
+---
+
+<!--
+_class: lead
+-->
+
+<style scoped>
+  h1 {
+    font-size: 2.5rem;
+  }
+  p {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+</style>
+
+![w:32](assets/socials/instagram.png) @nei.isep
+
+![w:32](assets/socials/twitter.jpg) @nei_isep
+
+![w:32](assets/socials/website.png) nei-isep.org
