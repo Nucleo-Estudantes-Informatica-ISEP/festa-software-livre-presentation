@@ -309,10 +309,8 @@ O primeiro foi criado para extrair, a partir de um PDF com um exame resolvido di
   O problema aqui acaba por ser óbvio, apesar da base ser a mesma, para cada formato de resolução um novo crawler tem que ser criado. Foram criados 4 destes para 4 unidades curriculares diferentes.
 
 O segundo, para extrair as perguntas da antiga aplicação, que por alguma razão, exportava as perguntas e respostas no formato de serialização do Java.
-  Para quem tem experiência com Java sabe que estes dados são apenas úteis quando acompanhados do código fonte, como referimos anteriormente, se ele está disponível,
-  a informação nunca nos chegou.
+  Para quem tem experiência com Java sabe que estes dados são apenas úteis quando acompanhados do código fonte, como referimos anteriormente, se ele está disponível, a informação nunca nos chegou.
 Desta forma foi criado um programa que lia o ficheiro serializável e fazia o match de referências de memória para extrair os dados na forma correta.
-Um fun fact que se pode acrescentar é que neste versão a resposta correta estava guardada sempre na posição 0 do array de opções de resposta.
 -->
 
 ---
@@ -456,8 +454,7 @@ _class: lead
 ![w:720](assets/github-repos.png)
 
 <!--
-Graças ao sucesso deste projeto e do feedback fantástico que fomos recebendo por parte de alunos e professores, o departamento de informática mudou completamente a forma como
-aborda o desenvolvimento dos projetos.
+Graças ao sucesso deste projeto e do feedback fantástico que fomos recebendo por parte de alunos e professores, o departamento de informática mudou completamente a forma como aborda o desenvolvimento dos projetos.
 
 Antes, o Github servia apenas como forma de manter um grupo de pessoas a trabalhar no mesmo projeto de forma coesa.
 
@@ -482,8 +479,7 @@ _class: lead
 # 📈
 
 <!--
-Graças a ter disponibilizado este material, acabamos por atrair mais atenção para o trabalho desenvolvido por este grupo de estudantes. Ficou à vista de todos
-o que esta equipa consegue desenvolver quando se focam num objetivo e com isto, naturalmente, novas pessoas ficaram interessadas em juntar-se e fazer parte da mesma.
+Graças a ter disponibilizado este material, acabamos por atrair mais atenção para o trabalho desenvolvido por este grupo de estudantes. Ficou à vista de todos o que esta equipa consegue desenvolver quando se focam num objetivo e com isto, naturalmente, novas pessoas ficaram interessadas em juntar-se e fazer parte da mesma.
 -->
 
 ---
@@ -496,8 +492,7 @@ _class: lead
 
 <!--
 Além disso, e ao contrário do que já acontece há algum tempo noutras instituições, no ISEP não existe grande ligação entre os professores e o trabalho desenvolvido no Núcleo.
-Mesmo assim, no fim da época de exames, a organização do Departamento de Informática no Github deu fork do projeto do AntiRecurso, o que nos traz esperança que o trabalho
-desenvolvido no Núcleo seja cada vez mais relevante para os professores.
+Mesmo assim, no fim da época de exames, a organização do Departamento de Informática no Github deu fork do projeto do AntiRecurso, o que nos traz esperança que o trabalho desenvolvido no Núcleo seja cada vez mais relevante para os professores.
 -->
 
 ---
@@ -517,8 +512,7 @@ _class: lead
 <!--
 Mesmo que não seja usado diretamente por professores, todo este código disponível para todos, é útil para qualquer aluno que queira uma base para começar um novo projeto.
 
-As tecnologias usadas no AntiRecurso não são lecionadas em nenhuma Unidade Curricular, logo, o projeto pode ser usado como material de estudo por qualquer pessoa
-interessada nestas tecnologias, ou em saber mais sobre como é construída uma plataforma que possam eventualmente usar durante o estudo.
+As tecnologias usadas no AntiRecurso não são lecionadas em nenhuma Unidade Curricular, logo, o projeto pode ser usado como material de estudo por qualquer pessoa interessada nestas tecnologias, ou em saber mais sobre como é construída uma plataforma que possam eventualmente usar durante o estudo.
 -->
 
 ---
@@ -530,8 +524,7 @@ _class: lead
 ![w:720](assets/pr-list.png)
 
 <!--
-Além de todos estes pontos, o facto do software ser disponibilizado de forma livre trouxe ajuda externa preciosa que ajudou a tornar o projeto possível dadas
-todas as limitações já referidas.
+Além de todos estes pontos, o facto do software ser disponibilizado de forma livre trouxe ajuda externa preciosa que ajudou a tornar o projeto possível dadas todas as limitações já referidas.
 -->
 
 ---
